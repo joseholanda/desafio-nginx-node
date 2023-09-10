@@ -9,8 +9,8 @@ services:
       dockerfile: Dockerfile
     networks:
       - node-network
-    volumes:
-      - ./node:/usr/src/app
+    #volumes:
+    # - ./node:/usr/src/app
     tty: true
     ports:
       - "3000:3000"
